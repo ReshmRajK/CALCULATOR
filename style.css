@@ -23,10 +23,24 @@ body{
 .btn-style-one{
     background-color: gray; 
 }
-.btn-style-two{
-    background-color: ; 
+.btn-style-one:hover{
+    background-color: wheat;
+}
+.btn-style-two:hover{
+    background-color: gray;
+}
+.btn-style-three{
+    background-color:goldenrod;
+}
+.btn-style-three:hover{
+    background-color:gold;
 }
 input::placeholder{
     text-align: end;
     font-size: 3rem;
 }
+
+/* <i class="fas fa-times"></i>
+<i class="fas fa-divide"></i> 
+<i class="fas fa-times"></i>
+<i class="fas fa-minus"></i>*/
