@@ -14,42 +14,45 @@
    <div class="main-section">
     <div class="content-section bg-black mt-5">
         <div class="input-section">
-            <input type="text"class="p-5 mt-5" placeholder="0">
+            <input id="num" type="text"class="p-5 mt-5" placeholder="0">
         </div>
-        <div class="button-section">
+        <div class="button-section pb-5">
         <div class="button-section-content mt-3">
-            <button class="button btn-style-one">AC</button>
-            <button class="button btn-style-one">(</button>
-            <button class="button btn-style-one">)</button>
-            <button class="button btn-style-three">%</button>
-        </div>
-        <div class="button-section-content mt-3">
-            <button class="button btn-style-two">7</button>
-            <button class="button btn-style-two">8</button>
-            <button class="button btn-style-two">9</button>
-            <button class="button btn-style-three">*</button>
+            <button onclick="allClear()" class="button btn-style-one">AC</button>
+            <button onclick="backSpace()" class="button btn-style-one">b</button>
+            <button onclick="displayData('.')" class="button btn-style-one">.</button>
+            <button onclick="displayData('%')" class="button btn-style-three">%</button>
         </div>
         <div class="button-section-content mt-3">
-            <button class="button btn-style-two">4</button>
-            <button class="button btn-style-two">5</button>
-            <button class="button btn-style-two">6</button>
-            <button class="button btn-style-three">-</button>
+            <button onclick="displayData(7)" class="button btn-style-two">7</button>
+            <button onclick="displayData(8)" class="button btn-style-two">8</button>
+            <button onclick="displayData(9)" class="button btn-style-two">9</button>
+            <button onclick="displayData('*')" class="button btn-style-three">*</button>
         </div>
         <div class="button-section-content mt-3">
-            <button class="button btn-style-two">1</button>
-            <button class="button btn-style-two">2</button>
-            <button class="button btn-style-two">3</button>
-            <button class="button btn-style-three">+</button>
+            <button onclick="displayData(4)" class="button btn-style-two">4</button>
+            <button onclick="displayData(5)" class="button btn-style-two">5</button>
+            <button onclick="displayData(6)" class="button btn-style-two">6</button>
+            <button onclick="displayData('-')" class="button btn-style-three">-</button>
         </div>
         <div class="button-section-content mt-3">
-            <button class="button btn-style-two">0</button>
-            <button class="button btn-style-two">.</button>
-            <button class="button btn-style-two">=</button>
-            <button class="button btn-style-three">/</button>
+            <button onclick="displayData(1)" class="button btn-style-two">1</button>
+            <button onclick="displayData(2)" class="button btn-style-two">2</button>
+            <button onclick="displayData(3)" class="button btn-style-two">3</button>
+            <button onclick="displayData('+')" class="button btn-style-three">+</button>
+        </div>
+        <div class="button-section-content mt-3">
+            <button onclick="displayData(00)" class="button btn-style-two">00</button>
+            <button onclick="displayData(0)" class="button btn-style-two">0</button>
+            <button onclick="displayOutput()" class="button btn-style-two">=</button>
+            <button onclick="displayData('/')" class="button btn-style-three">/</button>
         </div>
     </div>
     </div>
    </div>
     
 </body>
+<script src="./calc.js">
+
+</script>
 </html>
